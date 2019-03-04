@@ -1,0 +1,11 @@
+name: slack-bot
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - pathlib
+  - setuptools
+  # For tests
+  - pytest>=3
