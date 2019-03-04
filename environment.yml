@@ -9,3 +9,4 @@ dependencies:
   - setuptools
   # For tests
   - pytest>=3
+  - pytest-cov
