@@ -7,6 +7,7 @@ dependencies:
   - python=3.7
   - pathlib
   - setuptools
+  - slacker
   # For tests
   - pytest>=3
   - pytest-cov
