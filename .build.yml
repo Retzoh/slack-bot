@@ -86,7 +86,7 @@ tasks:
 
     # Run the project
     cd $repository_name/$package_path
-    python src/$package_folder/__init__.py
+    python -m slack_bot help
 
 - deploy_master_github: |
     ln -sf ~/.ssh/.build_test_ssh_key ~/.ssh/id_rsa
